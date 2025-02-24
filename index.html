@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@200..800&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Custom CSS -->
+     <link rel="stylesheet" href="./css/swiper.css">
+     <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <section class="position-relative h-100 w-100">
+        <nav class="position-fixed top-0 z-3 navbar d-flex align-item-justify">
+           <div class="d-flex p-3 ">
+            <img src="./media/hamburger.svg" alt="" id="toggle-menu" class="mx-2">
+            <img src="./media/logo-white.png" width="150px" alt="" class="mt-2">
+           </div>
+           <div class="d-flex p-3 contact-info">
+           <p class="mx-3 fs-5 mt-3 text-light fw-bold" style="letter-spacing: 2px;">021-987654321</p>
+           <button class="btn btn-light rounded-pill text-uppercase btn-contact"  >get in touch</button>
+           </div>
+        </nav>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide bg-black">
+                <p class="text-secondary px-5">A full service digital innovation and consultancy firm creating experiences you love. </p>
+                <img src="./media/mouse.svg" class="mouse-icon" alt="">
+              </div>
+              <div class="swiper-slide bg-slides">
+                <img src="./media/mouse.svg" class="mouse-icon" alt="">
+              </div>
+              <div class="swiper-slide bg-slides">
+                <img src="./media/mouse.svg" class="mouse-icon" alt="">
+              </div>
+              <div class="swiper-slide bg-slides">
+                <img src="./media/mouse.svg" class="mouse-icon" alt="">
+              </div>
+              <div class="swiper-slide bg-slides">
+                <img src="./media/mouse.svg" class="mouse-icon" alt="">
+              </div>
+              <div class="swiper-slide bg-slides">
+                <img src="./media/mouse.svg" class="mouse-icon" alt="">
+              </div>
+              <div class="swiper-slide bg-dark">
+                  <p class="text-light">Footer</p>
+            </div>
+              
+            </div>
+            <div class="swiper-pagination">
+            </div>
+          </div>
+
+          <div class="menu bg-black">
+            <div class="container position-relative h-100 ">
+                <i class="fa-solid fa-xmark text-light py-5 position-absolute end-0 mx-3 fs-1" id="close-menu"></i>
+                <div class="row my-3 align-items-center h-100 ">
+                    <div class="col-lg-8 menu-sec">
+                        <div class="row">
+                            <div class="col-lg-6 my-3">
+                                <a href="#" class="menu-links">About Us</a>
+                            </div>
+                            <div class="col-lg-6 my-3">
+                                <a href="#" class="menu-links">Careers</a>
+                            </div>
+                            <div class="col-lg-6 my-3">
+                                <a href="#" class="menu-links">Packages</a>
+                            </div>
+                            <div class="col-lg-6 my-3">
+                                <a href="#" class="menu-links">Capabilities</a>
+                            </div>
+                            <div class="col-lg-6 my-3">
+                                <a href="#" class="menu-links">Our Team</a>
+                            </div>
+                            <div class="col-lg-6 my-3">
+                                <a href="#" class="menu-links">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 address-sec">
+                    <h5>From Idea to Perfection</h5>
+                    <p>BRAND H2O (PVT) LTD</p>
+                    <p>46-C, Street 46, Main Shahrah e Faisal, Block 6, PECHS Karachi, Pakistan</p>
+                    <p>Call - 021-987654321</p>
+                    <p>Email - <a class="email-link" href="#">info@brandh2o.com</a></p>
+                    </div>
+                </div>
+            </div>
+          </div>
+    </section>
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      <script src="./js/swiper.js"></script>
+      <script src="./js/script.js"></script>
+</html>
