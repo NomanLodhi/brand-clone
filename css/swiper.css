@@ -45,7 +45,7 @@ html,
             }
         }
         .swiper-pagination-vertical.swiper-pagination-bullets, .swiper-vertical>.swiper-pagination-bullets {
-            margin-right: 50px !important;
+            margin-right: 30px !important;
         }
         .swiper-pagination-bullet{
             width: 15px !important;
